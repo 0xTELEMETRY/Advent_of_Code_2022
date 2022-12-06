@@ -1,6 +1,6 @@
 #*************************************************************************
 #  Advent of Code 2022
-#  Day 01 (Part 1)
+#  Day 01 (Part 2)
 #
 #  Author: Nikolaj Gribakin (xASM)
 #  Email: n.gribakin@gmail.com
@@ -34,3 +34,4 @@ for line in lines:
 print(result)
 input_file.close()
 
+#-----eof------

@@ -34,3 +34,5 @@ input_file.close()
 max_3 = max_elf_cal_list[elf_id-1] + max_elf_cal_list[elf_id-2] + max_elf_cal_list[elf_id-3]
 
 print(max_3)
+
+#-----eof------

@@ -1,6 +1,9 @@
 #*************************************************************************
 #  Advent of Code 2022
 #  Day 05 (Parts 1..2)
+#  Software Design Requirements:    day05_Req.txt
+#  Input Data:                      day5.txt
+#                                   day51.txt
 #
 #  Author: Nikolaj Gribakin (xASM)
 #  Email: n.gribakin@gmail.com
@@ -9,7 +12,7 @@
 #*************************************************************************
 
 input_file = open("day51.txt", "r")
-lines = input_file.readlines()  #read all data
+lines = input_file.readlines()  #read all data of stages
 result = 0
 i = 0
 
@@ -17,8 +20,6 @@ stage = ["","","","","","","","",""]
 stage_letter_pos = [1,5,9,13,17,21,25,29,33] 
 
 stage_height_ini = range(8)
-
-input_file.seek(0)
 
 for line in lines:
     line = line.strip()
@@ -39,7 +40,7 @@ for line in lines:
 print (stage)
 
 input_file = open("day5.txt", "r")
-lines = input_file.readlines()  #read all data
+lines = input_file.readlines()  #read all rules
 
 rules = [0,0,0]
 
@@ -63,6 +64,8 @@ result = stage[0][0]+stage[1][0]+stage[2][0]+stage[3][0]+stage[4][0]+stage[5][0]
 
 print(result)
 input_file.close()
+
+#-----eof------
 
 
 

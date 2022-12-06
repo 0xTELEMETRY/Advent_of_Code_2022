@@ -1,3 +1,12 @@
+#*************************************************************************
+#  Advent of Code 2022
+#  Day 03 (Part 1)
+#
+#  Author: Nikolaj Gribakin (xASM)
+#  Email: n.gribakin@gmail.com
+#  Tel:   +420 773078426
+#  
+#*************************************************************************
 input_file = open("day3.txt", "r")
 lines = input_file.readlines()  #read all data
 
@@ -32,5 +41,6 @@ for line in lines:
 print(result)
 input_file.close()
 
+#-----eof------
     
 

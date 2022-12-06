@@ -26,7 +26,7 @@ for i in (line_range):
         break
         
 print(i+strob_size)
-input_file.close()
+
     
 
 
