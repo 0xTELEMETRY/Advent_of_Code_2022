@@ -1,6 +1,8 @@
 #*************************************************************************
 #  Advent of Code 2022
 #  Day 02 (Part 2)
+#  Software Design Requirements:    day02_Req.txt
+#  Input Data:                      day2.txt
 #
 #  Author: Nikolaj Gribakin (xASM)
 #  Email: n.gribakin@gmail.com
@@ -72,5 +74,5 @@ for line in lines:
 print(" --> ", result)
 input_file.close()
 
-
+#-----eof------
 

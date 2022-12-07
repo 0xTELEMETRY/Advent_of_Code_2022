@@ -1,6 +1,8 @@
 #*************************************************************************
 #  Advent of Code 2022
 #  Day 06 (Parts 1..2)
+#  Software Design Requirements:    day06_Req.txt
+#  Input Data:                      day6.txt
 #
 #  Author: Nikolaj Gribakin (xASM)
 #  Email: n.gribakin@gmail.com
@@ -27,6 +29,7 @@ for i in (line_range):
         
 print(i+strob_size)
 
+#-----eof------
     
 
 

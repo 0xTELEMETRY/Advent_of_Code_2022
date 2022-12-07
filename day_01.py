@@ -1,6 +1,8 @@
 #*************************************************************************
 #  Advent of Code 2022
 #  Day 01 (Parts 1..2)
+#  Software Design Requirements:    day01_Req.txt
+#  Input Data:                      day1.txt
 #
 #  Author: Nikolaj Gribakin (xASM)
 #  Email: n.gribakin@gmail.com

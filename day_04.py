@@ -1,6 +1,8 @@
 #*************************************************************************
 #  Advent of Code 2022
 #  Day 04 (Parts 1..2)
+#  Software Design Requirements:    day04_Req.txt
+#  Input Data:                      day4.txt
 #
 #  Author: Nikolaj Gribakin (xASM)
 #  Email: n.gribakin@gmail.com
@@ -44,5 +46,7 @@ for line in lines:
         
 print (result, " ", c)
 input_file.close()
+
+#-----eof------
    
 
